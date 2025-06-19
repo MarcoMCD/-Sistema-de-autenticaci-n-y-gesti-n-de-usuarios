@@ -5,8 +5,8 @@ public class Invitado extends Usuario {
 	private String tiempoEspiracion;
 	private String comentarioReferencia;
 
-	public Invitado(String nombreUsuario, String contraseña, String tiempoEspiracion, String comentarioReferencia) {
-		super(nombreUsuario, contraseña);
+	public Invitado(String tiempoEspiracion, String comentarioReferencia) {
+		super();
 		this.tiempoEspiracion = tiempoEspiracion;
 		this.comentarioReferencia = comentarioReferencia;
 	}

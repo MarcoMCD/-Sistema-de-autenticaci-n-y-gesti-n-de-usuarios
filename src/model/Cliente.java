@@ -1,14 +1,16 @@
 package model;
 
-public class Cliente extends Usuario{
+import java.time.LocalDate;
+
+public class Cliente extends Usuario implements RecuperacionContraseña{
 	
 	private String correoRecuperacion;
-	private String fechaRegistro;
+	private LocalDate fechaRegistro;
 
-	public Cliente(String nombreUsuario, String contraseña, String correoRecuperacion, String fechaRegistro) {
+	public Cliente(String nombreUsuario, String contraseña, String correoRecuperacion) {
 		super(nombreUsuario, contraseña);
 		this.correoRecuperacion = correoRecuperacion;
-		this.fechaRegistro = fechaRegistro;
+		this.fechaRegistro = LocalDate.now();
 	}
 	
 	
@@ -20,15 +22,10 @@ public class Cliente extends Usuario{
 	public void setCorreoRecuperacion(String correoRecuperacion) {
 		this.correoRecuperacion = correoRecuperacion;
 	}
-
 	
-	public String getFechaRegistro() {
+
+	public LocalDate getFechaRegistro() {
 		return fechaRegistro;
-	}
-
-	
-	public void setFechaRegistro(String fechaRegistro) {
-		this.fechaRegistro = fechaRegistro;
 	}
 
 
@@ -36,5 +33,13 @@ public class Cliente extends Usuario{
 	public void realizarAccion() {
 		
 	}
+
+
+	@Override
+	public String recuperarContraseña() {
+		return null;
+	}
+
+
 
 }

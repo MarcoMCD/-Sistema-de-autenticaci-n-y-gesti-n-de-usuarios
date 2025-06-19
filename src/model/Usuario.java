@@ -10,6 +10,8 @@ public abstract class Usuario {
 		this.contraseña = contraseña;
 	}
 	
+	public Usuario(){}
+	
 	public abstract void realizarAccion();
 	
 
