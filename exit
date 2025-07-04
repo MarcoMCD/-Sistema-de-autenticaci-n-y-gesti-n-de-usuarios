@@ -1,0 +1,29 @@
+[33mcommit c5220909507ceb4398da2a688531db2beada440f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Marco <mancomencho83@gmail.com>
+Date:   Thu Jun 19 11:44:01 2025 -0600
+
+    Creacion de metodos para todos los registros (Roles)
+
+[33mcommit e49b25733a2e8170b64a6fba5f215f49adfc524a[m
+Author: Marco <mancomencho83@gmail.com>
+Date:   Thu Jun 19 00:31:36 2025 -0600
+
+    Cambiamos de paquete a los objetos
+
+[33mcommit bb980bea62e44dbff4fadbd45ccd0534d595fd13[m
+Author: Marco <mancomencho83@gmail.com>
+Date:   Thu Jun 19 00:18:45 2025 -0600
+
+    Creacion de todas las clases hijas (Roles)
+
+[33mcommit 6e2c57d7605485b272822a1ebeba10484ec556b8[m
+Author: Marco <mancomencho83@gmail.com>
+Date:   Wed Jun 18 19:37:09 2025 -0600
+
+    Creacion de clase padre(Usuario)
+
+[33mcommit 7ae18573593d5439eb05d50a1f0fcc7c863578c4[m
+Author: Marco <mancomencho83@gmail.com>
+Date:   Wed Jun 18 17:48:19 2025 -0600
+
+    Inicio del proyecto
